@@ -6,12 +6,23 @@
 }
 .container{
     display: flex;
+    
 }
 .box1{
 background-color: #424949;
 width: 20vw;
 min-height: 100vh;
 }
+
+#global{
+    overflow-y: scroll;
+    height: 300px;
+	width: 200px;
+	
+	background: #424949;
+}
+
+
 .box2{
     background-color: #5D6D7E;
     width: 80vw;
@@ -34,8 +45,8 @@ color: black;
 }
 
 .iframe{
-    min-width: 80vw;
-    height: 579px;
+    min-width: 82vw;
+    min-height: 100vh;
 }
 
 
